@@ -1,16 +1,17 @@
 ## Setting up
-* Install [SNMP Simulator tool](http://snmpsim.sourceforge.net/). This tool is installed via Python installation tool [Pip](https://pypi.python.org/pypi/pip)
+### Install [SNMP Simulator tool](http://snmpsim.sourceforge.net/). This tool is installed via Python installation tool [Pip](https://pypi.python.org/pypi/pip)
 ```
 pip install snmpsim
 ```
-* Install net snmp tool suites
-** Mac OS X
+### Install net snmp tool suites
+* Mac OS X
 ```
 brew install net-snmp
 ```
-** Ubuntu/Debian OSs
-
-
+* Ubuntu 16.04. Run the prepared installation script in [scripts](install_ubuntu.sh)
+```
+scripts/install_ubuntu.sh
+```
 ## How to run
 * Using snmpsimd to run an agent
 ```
