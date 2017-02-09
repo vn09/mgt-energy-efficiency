@@ -15,7 +15,7 @@ scripts/install_ubuntu.sh
 ## How to run
 * Using snmpsimd to run an agent
 ```
-psimd.py --agent-udpv4-endpoint=127.0.0.1:1161
+snmpsimd.py --agent-udpv4-endpoint=127.0.0.1:1161
 ```
 For the above command, agent starts at ip 127.0.0.1 and port 1161.
 
